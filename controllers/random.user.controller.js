@@ -1,4 +1,4 @@
-// const fs = require("fs");
+const fs = require("fs");
 
 let randomUsers = JSON.parse(
   fs.readFileSync(`${__dirname}/../devData/users.json`)

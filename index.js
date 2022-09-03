@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 //app use route api
-app.use("/user", require("./routes/random.user.route"));
+app.use("/user", require(__dirname + "./routes/random.user.route"));
 // route api
 app.get("/", (req, res) => {
   res.send("server running");

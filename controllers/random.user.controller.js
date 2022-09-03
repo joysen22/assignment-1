@@ -1,4 +1,5 @@
-let randomUsers = require("../faceData/random.users");
+// let randomUsers = require("../faceData/random.users");
+let randomUsers = require(`${__dirname}/../faceData/random.users.js`);
 /* 
 
 mathod get.

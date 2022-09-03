@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const randomUserController = require("../controllers/random.user.controller");
-let randomUsers = require("../faceData/random.users");
+// let randomUsers = require("../faceData/random.users");
 /* 
 
 mathod get.

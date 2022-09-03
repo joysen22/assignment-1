@@ -1,0 +1,18 @@
+{
+  "name": "asinment-1",
+  "version": "1.0.0",
+  "description": "progremer hero",
+  "main": "index.js",
+  "scripts": {
+    "test": "this is node first assignment",
+    "start": "node index.js",
+    "start-dev": "nodemon index.js"
+  },
+  "author": "joysen",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}

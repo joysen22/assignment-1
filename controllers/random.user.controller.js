@@ -1,5 +1,8 @@
+const fs = require("fs");
 // let randomUsers = require("../faceData/random.users");
-let randomUsers = require(`${__dirname}/../faceData/random.users.js`);
+let randomUsers = JSON.parse(
+  fs.readFileSync(`${__dirname}/../devData/users.json`)
+);
 /* 
 
 mathod get.

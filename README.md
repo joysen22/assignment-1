@@ -2,15 +2,25 @@
 
 ## File structure
 
-  <ul>
+  <ol>
     <li>conrtollers</li>
     <li>middlewares</li>
     <li>public</li>
     <li>routes</li>
     <li>faceData</li>
-  </ul>
+  </ol>
 
-## main file
+## User information
+
+  <ol>
+    <li>id</li>
+    <li>name</li>
+    <li>contact</li>
+    <li>address</li>
+    <li>photoUrl</li>
+  </ol>
+
+## Main file
 
  <p> index.js</p>
 

@@ -10,6 +10,12 @@
     <li>faceData</li>
   </ul>
 
+## main file
+
+ <p> index.js</p>
+
+# Routes file information
+
 ## Routes GET =>user/random
 
  <p>Get a random user from the .json file </p>

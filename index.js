@@ -4,7 +4,7 @@ const app = express();
 const userRouter = require("./routes/random.user.route");
 
 // server PORT
-const PORT = process.env.PORT || 7000;
+const PORT = 5000;
 // app user external middleware
 app.use(cors());
 // app user enternal middleware

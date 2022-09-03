@@ -45,7 +45,9 @@ exports.getAllRandomUser = (req, res) => {
   } else {
     res.status(200).json({
       message: "sucess",
-      data: randomUsers,
+      data: {
+        users: randomUsers,
+      },
     });
   }
 };

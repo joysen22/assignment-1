@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const app = express();
+const userRouter = require("./routes/random.user.route");
 
 // server PORT
 const PORT = process.env.PORT || 7000;
@@ -10,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 //app use route api
-app.use("/user", require(__dirname + "./routes/random.user.route"));
+app.use("/user", userRouter);
 // route api
 app.get("/", (req, res) => {
   res.send("server running");
